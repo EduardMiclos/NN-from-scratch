@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+.container{
+    background-image: linear-gradient(to bottom right, rgb(176, 166, 210), rgb(116, 90, 121), rgb(80, 56, 95));
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.title-text {
+    text-shadow: 3px 3px black;
+    font-size: 5em;
+    color: rgba(255, 255, 255, 0.986);
+}
+
+.canvas{
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px rgb(64, 63, 63);
+}
+
+#canvas {
+    border: 2px solid black;
+}
+
+
+.btn_predict {
+    font-family: 'Oswald', cursive;
+    font-size: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    box-shadow: 3px 3px black;
+    background-color: rgb(152, 197, 163);
+}
+
+.btn_predict:hover {
+    cursor: pointer;
+}
+
+.result {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
